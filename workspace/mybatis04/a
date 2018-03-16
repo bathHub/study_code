@@ -1,0 +1,3 @@
+  private Integer id;
+    private Integer itemnum;
+    private Orders orders;

@@ -1,0 +1,60 @@
+package com.zhiyou.mavenHdfs.hdfsTest;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+
+public class HdfsTest {
+  private FileSystem fileSystem;
+  private Configuration configuration;
+  
+  public HdfsTest(Configuration configuration) throws IOException{
+	  this.configuration = configuration;
+	  this.fileSystem = FileSystem.get(configuration);
+  }
+  //新建一个文件夹
+  public void mkdir(String path) throws IOException{
+	  Path newPath = new Path(path);
+	  if (fileSystem.exists(newPath)) {
+		System.out.println("创建目录"+path+"已存在");
+	}else{
+		fileSystem.mkdirs(newPath);
+		System.out.println("创建目录"+path+"成功");
+	}
+	 
+  }
+  public void close() throws IOException{
+	  if (fileSystem!=null) {
+		fileSystem.close();
+	}
+  }
+  //创建一个文件并写入内容
+  public void  writeFile(String path,String content) throws IOException{
+	  Path filePath = new Path(path);
+	  boolean flag = fileSystem.isDirectory(filePath);
+	  if (flag) {
+		System.out.println("这是一个目录无法写文件");
+	}else if (fileSystem.isFile(filePath)) {
+		System.out.println("是文件可以追加下面的内容");
+		 //创建文件并获取文件输出流
+		  FSDataOutputStream outputStream = fileSystem.append(filePath);
+		  //写入文件
+		  outputStream.writeBytes(content);
+		  //flush文件，将缓冲中的数据全部刷到文件中去	
+		  outputStream.hflush();
+		  System.out.println("文件创建成功");
+	}
+	 
+  }
+  
+  public static void main(String[] args) throws IOException {
+	HdfsTest hdfsTest = new HdfsTest(new Configuration());
+	//hdfsTest.mkdir("/javaApiTest");
+	
+	hdfsTest.writeFile("/javaApiTest/test.txt", "hello world");
+	hdfsTest.close();
+}
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace作为访问crud语句的标志 -->
+<mapper namespace="com.zhiyou.mapper.OrdersMapper">
+	
+	 <resultMap type="orders" id="select1_rm">
+	 <id column="id" property="id"/>
+	 <result column="number" property="number" />
+	 <result column="createtime" property="createtime"/>
+	 <result column="note" property="note"/>
+	 <association property="user" javaType="user">
+	<id column="user_id" property="id"/>
+	<result column="username" property="username"/>
+	<result column="birthday" property="birthday"/>
+	<result column="sex" property="sex"/>
+	<result column="address" property="address"/>
+	</association>
+	</resultMap>
+       <select id="select1" resultMap="select1_rm">
+          select 
+            t2.*,
+            t1.username,
+            t1.birthday,
+            t1.sex,
+            t1.address
+            from
+                orders t2,
+                user  t1
+            where
+               t2.user_id = t1.id
+       
+       
+       
+       </select>
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 开启二级缓存的总开关 -->
+	<settings>
+		<setting name="cacheEnabled" value="true"/>
+		<!-- 开启延迟加载 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<!-- 对应属性的加载默认是积极的,修改为为false -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+	</settings>
+	<!-- 修改类的别名 -->
+	<typeAliases>
+			<!-- 修改对应包下的类别名为首字母小写，com.zhiyou100.entity.User__user -->
+			<package name="com.zhiyou.entity"/>
+			<!-- <typeAlias type="com.zhiyou.entity.User" alias="User"/> -->
+	</typeAliases>
+</configuration>

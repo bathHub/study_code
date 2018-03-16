@@ -1,0 +1,39 @@
+package mybatis04;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.zhiyou.entity.Orders;
+import com.zhiyou.entity.User;
+import com.zhiyou.mapper.OrdersMapper;
+import com.zhiyou.mapper.UserMapper;
+import com.zhiyou.util.MybatisUtil;
+
+public class mybatisTest {
+        private SqlSessionFactory factory;
+         @Test
+           public void test() throws Exception{
+        	       SqlSessionFactory sFactory =  MybatisUtil.getSqlSessionFactory();
+        	  SqlSession session = sFactory.openSession();
+        		
+        
+        			
+        			OrdersMapper ordersMapper=session.getMapper(OrdersMapper.class);
+        			  List<Orders> list= ordersMapper.select1();
+        			  for (Orders orders : list) {
+						System.out.println(orders.getNumber()+"|"+orders.getUser().getUsername() );
+					}
+        			
+        			
+        			
+        			}
+        		
+        }
+        
+        
+

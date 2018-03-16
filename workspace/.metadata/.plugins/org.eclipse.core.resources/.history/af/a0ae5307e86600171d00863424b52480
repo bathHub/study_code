@@ -1,0 +1,30 @@
+package pm;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ThreadPool {
+   private int size=5;//设置线程池中的线程数
+   List<TaskThread> list = new ArrayList<>();
+   //下面要开启以此将这些数目的线程创建出来并开启
+   private void init(){
+	   for (int i = 0; i < size; i++) {
+		 TaskThread taskThread = new TaskThread();
+		 taskThread.setName(i+1+"");
+		 //将这些新建出来的线程一次放进list中
+		 list.add(taskThread);
+		 taskThread.start();
+		 System.out.println("线程"+(i+1)+"已经启动");
+	}
+	   
+   }
+public void setSize(int size) {
+	this.size = size;
+}
+public void setList(List<TaskThread> list) {
+	this.list = list;
+}
+
+}
+   
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+ 
+ 	<!-- 使用注解形式完成，必须添加扫描 -->
+ 	<context:component-scan base-package="com.zhiyou"/>
+ 	
+ 	<!-- 注册转换器 -->
+ 	<bean id="formattingConversionServiceFactoryBean" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+ 		<property name="converters">
+ 			<set>
+ 				<!--  实例化自己的转换器-->
+ 				<bean id="dateConverter" class="com.zhiyou.converter.DateConverter"/>
+ 			</set>
+ 		</property>
+ 	</bean>
+ 	<!-- 引入转换器 -->
+ 	<mvc:annotation-driven conversion-service="formattingConversionServiceFactoryBean" />
+ 	<!-- <mvc:annotation-driven /> -->
+ 	<!-- 静态 资源的访问 -->
+ 	<mvc:resources location="/images/" mapping="/images/**"/>
+ 	<mvc:resources location="/script/" mapping="/script/**"/>
+ 	<mvc:resources location="/file/" mapping="/file/**"/>
+ 	<!-- 设置视图解析器，增加前缀和后缀 -->
+ 	<!-- 
+ 	<bean id="resolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+ 		<property name="prefix" value="/WEB-INF/jsp/"/>
+ 		<property name="suffix" value=".jsp"/>
+ 	</bean> 
+ 	-->
+ 	
+ 	<!-- 文件解析器 -->
+ 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+ 		<!-- 设置上传文件的大小 -->
+ 		<property name="maxUploadSize">
+ 			<value>1024000</value>
+ 		</property>
+ 	</bean>
+ 	
+ 
+ </beans>

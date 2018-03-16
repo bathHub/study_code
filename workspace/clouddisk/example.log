@@ -1,0 +1,424 @@
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1' to allow for resolving potential circular references
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2' to allow for resolving potential circular references
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2' to allow for resolving potential circular references
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appUserDao'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'fileIndexDao'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'PFileIndexMapper'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1461529]
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartResolver'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@609f047b]
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@fbbd170]
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@7e2caf07]
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@8aa1099]
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@4809ae55]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Looking for resource handler mappings
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/images/**", locations=[ServletContext resource [/images/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6eaf2088]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/js/**", locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1ff8526b]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/css/**", locations=[ServletContext resource [/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@46cdecd9]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Looking for resource handler mappings
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/images/**", locations=[ServletContext resource [/images/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6eaf2088]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/js/**", locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1ff8526b]
+DEBUG localhost-startStop-1 org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/css/**", locations=[ServletContext resource [/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@46cdecd9]
+DEBUG localhost-startStop-1 org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+DEBUG localhost-startStop-1 org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+DEBUG localhost-startStop-1 org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+DEBUG localhost-startStop-1 org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+DEBUG localhost-startStop-1 org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'springMVCServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.springMVCServlet]
+INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'springMVCServlet': initialization completed in 4487 ms
+DEBUG localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Servlet 'springMVCServlet' configured successfully
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'springMVCServlet' processing POST request for [/cd/login]
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /login
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.zhiyou.clouddisk.controller.AppUserController.login(com.zhiyou.clouddisk.model.AppUser,org.springframework.ui.Model)]
+DEBUG http-bio-8080-exec-8 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appUserController'
+DEBUG http-bio-8080-exec-8 org.springframework.web.cors.DefaultCorsProcessor - Skip CORS processing: request is from same origin
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a76a1cc]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==>  Preparing: select user_id ,user_name ,gender ,birthday ,account_no ,password ,email ,phone_no from app_user where account_no=? 
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==> Parameters: test001(String)
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - <==      Total: 1
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a76a1cc]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a76a1cc]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a76a1cc]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fdc7a62]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==>  Preparing: SELECT a.* FROM file_index a INNER JOIN file_index b ON a.parent_id=b.file_index_id WHERE b.user_id=? AND b.path='/' 
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - <==      Total: 5
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fdc7a62]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fdc7a62]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fdc7a62]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e3ff12]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==>  Preparing: select * from file_index where user_id=? AND path='/' 
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-8 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - <==      Total: 1
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e3ff12]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e3ff12]
+DEBUG http-bio-8080-exec-8 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e3ff12]
+DEBUG http-bio-8080-exec-8 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-8 org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG http-bio-8080-exec-8 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'springMVCServlet'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'appUser' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.appUser' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'user' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootFiles' of type [java.util.ArrayList] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootDir' of type [com.zhiyou.clouddisk.model.FileIndex] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.rootDir' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+DEBUG http-bio-8080-exec-8 org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG http-bio-8080-exec-8 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'springMVCServlet' processing GET request for [/cd/directory]
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /directory
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]
+DEBUG http-bio-8080-exec-9 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'fileIndexController'
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/cd/directory] is: -1
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73822bd5]
+DEBUG http-bio-8080-exec-9 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-9 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-9 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - ==>  Preparing: select path from file_index 
+DEBUG http-bio-8080-exec-9 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - ==> Parameters: 
+DEBUG http-bio-8080-exec-9 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - <==      Total: 24
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73822bd5]
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73822bd5]
+DEBUG http-bio-8080-exec-9 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73822bd5]
+DEBUG http-bio-8080-exec-9 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-9 org.springframework.jdbc.datasource.DataSourceTransactionManager - Should roll back transaction but cannot - no transaction available
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-9 org.springframework.web.servlet.DispatcherServlet - Could not complete request
+java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+	at com.zhiyou.clouddisk.service.imp.FileIndexServiceImpl.getAllIndex(FileIndexServiceImpl.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy38.getAllIndex(Unknown Source)
+	at com.zhiyou.clouddisk.controller.FileIndexController.directory(FileIndexController.java:249)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'springMVCServlet' processing POST request for [/cd/login]
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /login
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.zhiyou.clouddisk.controller.AppUserController.login(com.zhiyou.clouddisk.model.AppUser,org.springframework.ui.Model)]
+DEBUG http-bio-8080-exec-5 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appUserController'
+DEBUG http-bio-8080-exec-5 org.springframework.web.cors.DefaultCorsProcessor - Skip CORS processing: request is from same origin
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292cfce6]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==>  Preparing: select user_id ,user_name ,gender ,birthday ,account_no ,password ,email ,phone_no from app_user where account_no=? 
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==> Parameters: test001(String)
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - <==      Total: 1
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292cfce6]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292cfce6]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292cfce6]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68496dab]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==>  Preparing: SELECT a.* FROM file_index a INNER JOIN file_index b ON a.parent_id=b.file_index_id WHERE b.user_id=? AND b.path='/' 
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - <==      Total: 5
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68496dab]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68496dab]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68496dab]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74f554d]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==>  Preparing: select * from file_index where user_id=? AND path='/' 
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-5 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - <==      Total: 1
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74f554d]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74f554d]
+DEBUG http-bio-8080-exec-5 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74f554d]
+DEBUG http-bio-8080-exec-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'springMVCServlet'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'user' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'appUser' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.appUser' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootFiles' of type [java.util.ArrayList] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootDir' of type [com.zhiyou.clouddisk.model.FileIndex] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.rootDir' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+DEBUG http-bio-8080-exec-5 org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'springMVCServlet' processing POST request for [/cd/login]
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /login
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.zhiyou.clouddisk.controller.AppUserController.login(com.zhiyou.clouddisk.model.AppUser,org.springframework.ui.Model)]
+DEBUG http-bio-8080-exec-10 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appUserController'
+DEBUG http-bio-8080-exec-10 org.springframework.web.cors.DefaultCorsProcessor - Skip CORS processing: request is from same origin
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@718d3bfe]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==>  Preparing: select user_id ,user_name ,gender ,birthday ,account_no ,password ,email ,phone_no from app_user where account_no=? 
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - ==> Parameters: test001(String)
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.AppUserDao.getAppUserByAccountNo - <==      Total: 1
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@718d3bfe]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@718d3bfe]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@718d3bfe]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54a054e4]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==>  Preparing: SELECT a.* FROM file_index a INNER JOIN file_index b ON a.parent_id=b.file_index_id WHERE b.user_id=? AND b.path='/' 
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootFilesByUserId - <==      Total: 5
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54a054e4]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54a054e4]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54a054e4]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@754a4ec3]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==>  Preparing: select * from file_index where user_id=? AND path='/' 
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - ==> Parameters: 139(Long)
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getRootDirByUserId - <==      Total: 1
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@754a4ec3]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@754a4ec3]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@754a4ec3]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'springMVCServlet'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'user' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'appUser' of type [com.zhiyou.clouddisk.model.AppUser] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.appUser' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootFiles' of type [java.util.ArrayList] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'rootDir' of type [com.zhiyou.clouddisk.model.FileIndex] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.user' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.rootDir' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'springMVCServlet' processing GET request for [/cd/directory]
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /directory
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]
+DEBUG http-bio-8080-exec-10 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'fileIndexController'
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/cd/directory] is: -1
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@434cfc7]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [jdbc:mysql://127.0.0.1/clouddisk, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - ==>  Preparing: select path from file_index 
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - ==> Parameters: 
+DEBUG http-bio-8080-exec-10 com.zhiyou.clouddisk.dao.FileIndexDao.getAllIndex - <==      Total: 24
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@434cfc7]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@434cfc7]
+DEBUG http-bio-8080-exec-10 org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@434cfc7]
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG http-bio-8080-exec-10 org.springframework.jdbc.datasource.DataSourceTransactionManager - Should roll back transaction but cannot - no transaction available
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.zhiyou.clouddisk.controller.FileIndexController.directory()]: java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+DEBUG http-bio-8080-exec-10 org.springframework.web.servlet.DispatcherServlet - Could not complete request
+java.lang.ClassCastException: java.lang.String cannot be cast to com.zhiyou.clouddisk.model.FileIndex
+	at com.zhiyou.clouddisk.service.imp.FileIndexServiceImpl.getAllIndex(FileIndexServiceImpl.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy38.getAllIndex(Unknown Source)
+	at com.zhiyou.clouddisk.controller.FileIndexController.directory(FileIndexController.java:249)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

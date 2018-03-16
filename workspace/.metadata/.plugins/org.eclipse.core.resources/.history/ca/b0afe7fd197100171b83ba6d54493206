@@ -1,0 +1,22 @@
+package com.zhiyou.mavenHdfs.hdfsTest;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+
+public class HdfsTest {
+  private FileSystem fileSystem;
+  private Configuration configuration;
+  
+  public HdfsTest(Configuration configuration) throws IOException{
+	  this.configuration = configuration;
+	  this.fileSystem = FileSystem.get(configuration);
+  }
+  //新建一个文件夹
+  public void mkdir(String path) throws IOException{
+	  Path newPath = new Path(path);
+	  fileSystem.mkdirs(newPath);
+  }
+}

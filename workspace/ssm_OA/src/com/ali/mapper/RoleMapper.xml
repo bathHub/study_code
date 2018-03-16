@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace作为访问crud语句的标志 -->
+<mapper namespace="com.ali.mapper.RoleMapper">
+    <insert id="insertRole" parameterType="role" >
+             insert into 
+             oa_role(name,description) 
+              values(#{name},#{description}) 
+   </insert>
+	<select id="selectAllRoles" resultType="role">
+	          select * from oa_role
+	          
+	</select>
+	   <delete id="roleDeleteById" parameterType="java.lang.Integer">
+	          delete from 
+	          oa_role 
+	          where id = #{id}
+	   </delete>
+	   <insert id="addRole" parameterType="role">
+	       insert into
+	       oa_role(name,description)
+	       values(#{name},#{description})
+	   </insert>
+	   <select id="selectRoleById" parameterType="java.lang.Integer" resultType="role">
+	           select * from
+	           oa_role
+	           where id=#{id}
+	   </select>
+      <update id="updateRole" parameterType="role">
+           update oa_role set name = #{name} , description = #{description}
+           where id= #{id}
+      </update>
+</mapper>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 修改action的后缀名、扩展名，一般只配置action -->
+	<constant name="struts.action.extension" value="action" />
+	<!-- 自动刷新struts.xml -->
+	<constant name="struts.configuration.xml.reload" value="true"/>
+	<!-- 开启开发者模式 -->
+	<constant name="struts.devMode" value="true"/>
+	
+	<package name="myPackage1" namespace="/" extends="struts-default">
+		<!-- 
+		type:
+			action和jsp之间，dispatcher请求转发，redirect请求重定向
+			action和action之间，chain请求转发，redirectAction请求重定向。
+			如果要请求的action不在本包中，需要添加参数namespace
+			
+			 不同包中action的名字
+		 	<param name="actionName">aa2</param>
+		 	 不同包的namespace的值
+		 	<param name="namespace">/my2</param>
+		 -->
+		<action name="user_*"
+				class="com.zhiyou100.action.UserAction"
+				method="{1}">
+			<!-- 
+			action到jsp页面的请求
+			type：指定请求转发或是重定向，默认是dispatcher
+				redirect，重定向
+			 -->
+			<result name="login" type="dispatcher">/WEB-INF/jsp/login.jsp</result>
+			<result name="reg" type="redirect">/WEB-INF/jsp/reg.jsp</result>
+		</action>
+		
+		<!-- action之间的跳转
+		type：
+			chain：请求转发
+			redirectAction:请求重定向
+		
+		 -->
+		 
+		 <!-- 请求转发到user_login.action -->
+		 <action name="a">
+		 	<result type="chain">user_login</result>
+		 </action>
+		 
+		 <!-- 请求转发到aa2.action -->
+		 <action name="aa">
+		 	<result type="chain">
+		 		<!-- 不同包中action的名字 -->
+		 		<param name="actionName">aa2</param>
+		 		<!-- 不同包的namespace的值 -->
+		 		<param name="namespace">/my2</param>
+		 	</result>
+		 </action>
+		 
+		 <!-- 请求重定向到另一个action -->
+		 <action name="b">
+		 	<result type="redirectAction">user_login</result>
+		 </action>
+		  <action name="bb">
+		 	<result type="redirectAction">
+		 		<param name="actionName">aa2</param>
+		 		<param name="namespace">/my2</param>
+		 	</result>
+		 </action>
+		
+		
+	</package>
+	<package name="mypackage2" namespace="/my2" extends="struts-default">
+		<action name="aa2">
+			<result>/WEB-INF/jsp/reg.jsp</result>
+		</action>
+	
+	</package>
+
+</struts>

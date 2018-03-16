@@ -1,0 +1,16 @@
+package com.zhiyou.mavenHdfs.hdfsTest;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+
+public class HdfsTest {
+  private FileSystem fileSystem;
+  private Configuration configuration;
+  
+  public HdfsTest(Configuration configuration) throws IOException{
+	  this.configuration = configuration;
+	  this.fileSystem = FileSystem.get(configuration);
+  }
+}

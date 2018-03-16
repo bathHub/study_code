@@ -1,0 +1,87 @@
+package com.zhiyou.testList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestListSortComparator {
+	
+
+	
+		public static void main(String[] args) {
+			List<User1> list = new ArrayList<User1>();
+			//  User user = new User(111, "zhang", 12);
+			//System.out.println(user);
+			//创建一个for循环，往list中放入数据
+			for (int i = 0; i < 10; i++) {
+				//ID唯一，年龄17-30，姓名不要求
+				int id = (int) (Math.random()*9+10001);
+				User1 user = new User1(id, "String"+i,(int) (Math.random()*14+17) );
+				while(list.contains(user)){
+					id = (int) (Math.random()*9999+10001);
+					user = new User1(id, "String"+i,(int) (Math.random()*14+17) );
+				}
+				list.add(user);
+			}
+			for (User1 user : list) {
+				System.out.println(user);
+			}
+			System.out.println("------------------------");
+			@Override
+			public int compare(User1 o1,user1 o2){
+				return o1.getId()-o2.getId();
+			}
+			
+		}	  
+	}
+
+	class User1 {
+		private int id;
+		private String name;
+		private int age;
+		public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void setAge(int age) {
+			this.age = age;
+		}
+		public User1(int id, String name, int age) {
+			super();
+			this.id = id;
+			this.name = name;
+			this.age = age;
+		}
+		public User1() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		@Override
+		public String toString() {
+			return "User1 [id=" + id + ", name=" + name + ", age=" + age + "]";
+		}
+		//重写user的equals方法
+		@Override
+		public boolean equals(Object obj){
+			//首先判断obj是不是user类型的
+			if (!(obj instanceof User)) {
+				return false;
+			}
+			User u = (User) obj;
+			return this.id==u.getId()?true:false;
+		}
+
+		
+	}
+
+

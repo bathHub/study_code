@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace作为访问crud语句的标志 -->
+<mapper namespace="com.zhiyou100.mapper.UserMapper">
+	<select id="selectByName" parameterType="java.util.Map"
+		resultType="com.zhiyou100.entity.User">
+		select * from t_user
+		<where>
+			<if test="name!=null and name!=''">
+				and name like concat('%',#{name},'%')
+			</if>
+			<if test="sal!=null">
+				and sal > #{sal}
+			</if>
+		</where>
+	</select>
+
+	<select id="selectByName2" parameterType="java.util.Map"
+		resultType="com.zhiyou100.entity.User">
+		select * from t_user
+		<where>
+			<include refid="sql1" />
+		</where>
+	</select>
+	<sql id="sql1">
+		<if test="name!=null and name!=''">
+			and name like concat('%',#{name},'%')
+		</if>
+		<if test="sal!=null">
+			and sal > #{sal}
+		</if>
+	</sql>
+
+	<!-- choose-when的使用 -->
+	<select id="selectByName3" parameterType="java.util.Map"
+		resultType="com.zhiyou100.entity.User">
+		select * from t_user where
+			<choose>
+				<when test="name!=null">
+					 name like concat('%',#{name},'%')
+				</when>
+				<when test="sal!=null">
+					sal > #{sal}					
+				</when>
+			</choose>
+	</select>
+
+	<update id="update1" parameterType="com.zhiyou100.entity.User">
+		update t_user 
+		<set>
+			<!-- 表中name列只要有一个为null，不解析 -->
+			<if test="name==null">
+				name=#{name}
+			</if>
+			<if test="sal!=null">
+				sal = #{sal}
+			</if>
+		</set>
+	</update>
+	
+    <delete id="delete1">
+        delete from t_user
+        <where>
+           <if test="ids!=null">
+           <!-- 遍历集合使用foreach
+           collection：需要遍历的集合或者数组
+           open：打开，以。。。开始
+           close：关闭，以。。。结束
+           item：每次迭代集合中获得的元素
+           separetor:分割符。sql语句中一般使用，
+            -->
+            <foreach collection="ids"
+             open="id in("
+             close=")"
+            
+             separator=","
+            item="id">
+            #{id}
+            
+            
+            </foreach>
+           
+           
+           </if>
+        
+        </where>
+    
+    
+    
+    </delete>
+	
+
+
+
+
+
+
+
+
+</mapper>

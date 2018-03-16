@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>springMVC</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	
+	<!-- 核心功能处理器的配置： -->
+<servlet>
+	<servlet-name>dispatcherServlet</servlet-name>
+	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	<!-- 启动的时候需要读取spring的配置文件 -->
+	<init-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring.xml</param-value>
+	</init-param>
+	<!-- 随着web容器tomcat的启动，实例化这个servlet >=0 数字越小，启动越早-->
+	<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+	<servlet-name>dispatcherServlet</servlet-name>
+	<url-pattern>/</url-pattern>
+</servlet-mapping>
+
+
+<!-- 在这里给大家说一下/*和/的区别 -->
+
+<!-- <url-pattern>/</url-pattern> -->
+<!-- 二者的区别
+二者都可以拦截所有的请求。
+/*访问jsp的时候也会拦截,/不会 -->
+	
+	
+</web-app>

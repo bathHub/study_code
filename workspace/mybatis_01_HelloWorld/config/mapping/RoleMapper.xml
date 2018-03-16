@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="role">
+	<!-- 列名和属性名不一致 -->
+	<!-- 第一种解决方式 -->
+	<select id="selectAllRole" resultType="com.zhiyou100.entity.Role">
+		select id,rname as name,sal,birthday from role
+	</select>
+	<!-- 第二种解决方式 -->
+	<resultMap type="com.zhiyou100.entity.Role" id="role1">
+		<result column="rname" property="name"/>
+	</resultMap>
+	<select id="selectAllRole2" resultMap="role1">
+		select * from role
+	</select>
+	
+	
+	<!-- 查询部分属性 -->
+	<select id="select1" resultType="com.zhiyou100.entity.Role">
+		select id,rname as name from role
+	</select>
+
+	<!-- 查询具有一个条件的语句 -->
+	<select id="select2" resultMap="role1" parameterType="java.lang.Integer">
+		select * from role where id = #{id}
+	</select>
+	
+	<!-- 查询多个条件 -->
+	<select id="select3" resultMap="role1" parameterType="java.util.Map">
+		<![CDATA[
+		select * from role where id = #{a} and sal < #{sal}
+		]]>
+	</select>
+	
+	<select id="select4" resultType="com.zhiyou100.entity.Role" parameterType="com.zhiyou100.entity.Role">
+		<!-- 参数的名字必须在对应包装对象中有get方法 -->
+		<![CDATA[
+		select id,rname as name from role where id = #{id} and sal < #{sal}
+		]]>
+	</select>
+	
+	<!-- 模糊查询 -->
+	<select id="select5" resultType="com.zhiyou100.entity.Role" parameterType="java.lang.String">
+		select id,rname as name from role where rname like #{abc}
+	</select>
+	<select id="select6" resultType="com.zhiyou100.entity.Role" parameterType="com.zhiyou100.entity.Role">
+		select id,rname as name from role where rname like concat("%",#{name},"%")
+	</select>
+
+	<!-- 更新 -->
+	<!-- 数据包装到集合中，自己测试数据包装到对象中 -->
+	<update id="update1" parameterType="java.util.Map">
+		update role 
+			set 
+			rname = #{name},
+			sal = #{sal}, 
+			birthday = #{birthday} 
+		where 
+			id=#{id}
+	</update>
+	<!-- 新增数据 --> 
+	<insert id="insert1" parameterType="com.zhiyou100.entity.Role">
+		insert into role
+			values(#{id},#{name},#{sal},#{birthday})
+	</insert>
+	<!-- 返回新增之后的id -->
+	<insert id="insert2" parameterType="com.zhiyou100.entity.Role">
+		<selectKey order="AFTER" keyProperty="id" resultType="java.lang.Integer">
+			select LAST_INSERT_ID()
+		</selectKey>
+		insert into role(rname,sal,birthday)
+			values(#{name},#{sal},#{birthday})
+	</insert>
+	
+	<delete id="delete1" parameterType="java.lang.Integer">
+		delete from role where id  = #{id}
+	</delete>
+	
+</mapper>

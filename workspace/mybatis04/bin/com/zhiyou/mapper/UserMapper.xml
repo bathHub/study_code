@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace作为访问crud语句的标志 -->
+<mapper namespace="com.zhiyou.mapper.UserMapper">
+	   <!-- <resultMap type="user" id="select_rm1">
+	   <id column="id" property="id"/>
+	   <result column="username" property="username"/>
+	   <result column="birthday" property="birthday"/>
+	   <result column="sex" property="sex"/>
+	   <result column="address" property="address"/>
+	   <collection property="orders" ofType="Orders">
+	   <id column="oid" property="id"/>
+	   <result column="number" property="number"/>
+	   <result column="createtime" property="createtime"/>
+	   <result column="note" property="note"/>
+	   
+	   </collection>
+	   </resultMap>
+    <select id="select3" resultMap="select_rm1">
+        select 
+        	t1.* ,
+        	t2.id oid,
+        	t2.number,
+        	t2.createtime,
+        	t2.note
+        from
+        	user t1,
+        	orders t2
+        where
+        	t1.id=t2.user_id
+    </select> -->
+    
+    <resultMap type="user" id="select_rm2">
+       <id column="user_id" property="id"/>
+       <result column="username" property="username"/>
+       <result column="birthday" property="birthday"/>
+       <result column="sex" property="sex"/>
+       <result column="address" property="address"/>
+    
+       <collection property="orders" ofType="orders">
+       <id column="oders_id" property="id"/>
+       <result column="number" property="number"/>
+       <result column="createtime" property="createtime"/>
+       <result column="note" property="note"/>
+       <collection property="orderDetails" ofType="orderDetail">
+       <id column="orderdetail_id" property="id"/>
+     
+      <association property="items" javaType="items">
+        <id column="items_id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="detail" property="detail"/>
+        <result column="pic" property="pic"/>
+        <result column="items_createtime" property="createtime"/>
+        <result column="price" property="price"/>
+      </association>
+      
+       
+       
+          
+       </collection>
+         
+       </collection>
+       </resultMap>
+       
+       <select id="select4" resultMap="select_rm2">
+       select
+       		t1.id user_id,
+       		t1.username,
+       		t1.birthday,
+       		t1.sex,
+       		t1.address,
+       		
+       		t2.id items_id,
+       		t2.name,
+       		t2.detail,
+       		t2.pic,
+       		t2.createtime,
+       		t2.price,
+       		
+       		t3.id orders_id,
+       		t3.number,
+       		t3.createtime items_createtime,
+       		t3.note,
+       		
+       		t4.id orderdetail_id,
+       		t4.items_num
+       		
+      from
+         user t1,
+         items t2,
+         orders t3,
+         orderdetail t4
+         where
+       		t3.user_id = t1.id
+       		and
+       		t4.orders_id = t3.id
+       		and
+       		t2.id = t4.items_id
+       		and
+      		t4.items_id=t2.id
+       </select>
+    
+</mapper>

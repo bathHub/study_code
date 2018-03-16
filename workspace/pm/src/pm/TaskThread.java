@@ -1,0 +1,48 @@
+package pm;
+
+public class TaskThread extends Thread{
+   private Task task;//赋给线程的任务
+   private boolean running = false;//如果正在执行就为true
+public Task getTask() {
+	return task;
+}
+
+public boolean isRunning() {
+	return running;
+}
+public void setRunning(boolean running) {
+	this.running = running;
+}
+synchronized public void setTask(Task task) {
+	if (!running) {  //如果线程中有任务在运行，就不添加任务
+		this.task = task;
+		this.running = true;
+		this.notify();
+	}
+	
+}
+
+@Override
+synchronized public void run() {
+	// TODO Auto-generated method stub
+	while (true) {try {
+		if (!running) {//如果该线程中没有添加任务，就让线程处于等待状态
+			System.out.println("当前线程"+Thread.currentThread().getName()+"处于等待状态");
+			
+				this.wait();
+			
+		}else {
+			   Thread.sleep(1000);
+			   task.doTask();
+			   this.running = true;
+		}
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
+	
+} 
+
+   
+}

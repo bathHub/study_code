@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring.xml&apos; to &apos;springMVC_form/config&apos;&#x0D;&#x0A;- Original project: &apos;springMVC&apos;&#x0D;&#x0A;- Destination element: &apos;springMVC_form/config&apos;&#x0D;&#x0A;- Original element: &apos;spring.xml&apos;" description="Copy file" destination="=springMVC_form/config" element1="config/spring.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499247538986" units="0" version="1.0"/>
+</session>

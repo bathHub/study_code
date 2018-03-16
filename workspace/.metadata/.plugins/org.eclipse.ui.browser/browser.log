@@ -1,0 +1,134 @@
+
+7月 05, 2017 12:01:40.92 NEW SESSION
+7月 05, 2017 12:01:40.92 [2488:6868:0705/120140.923:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 05, 2017 12:03:05.63 [2488:6868:0705/120305.635:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 05, 2017 12:03:05.63 [2488:208:0705/120305.635:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 12:05:32.43 [2488:208:0705/120532.433:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 12:07:05.65 [2488:6868:0705/120705.650:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 05, 2017 12:09:11.95 [2488:208:0705/120911.956:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 12:12:57.10 [2488:208:0705/121257.105:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 12:18:11.21 [2488:208:0705/121811.210:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 05, 2017 15:05:34.32 NEW SESSION
+7月 05, 2017 15:05:34.32 [5536:6536:0705/150534.324:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 05, 2017 15:10:00.96 [5536:6796:0705/151000.965:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 15:10:19.57 [5536:6536:0705/151019.570:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 05, 2017 15:12:16.19 [5536:6796:0705/151216.196:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 16:20:36.08 [5536:6796:0705/162036.086:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 16:23:06.54 [5536:6796:0705/162306.540:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 05, 2017 18:11:36.58 [5536:6536:0705/181136.581:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7月 05, 2017 18:56:56.52 [5536:6536:0705/185656.523:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+7月 06, 2017 10:26:24.97 NEW SESSION
+7月 06, 2017 10:26:24.97 [4376:3760:0706/102624.978:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 10:27:12.44 [4376:3760:0706/102712.447:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 10:30:08.94 [4376:3760:0706/103008.947:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 11:58:54.39 [3356:2472:0706/115854.395:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 11:58:54.73 [3356:2472:0706/115854.731:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 11:58:55.49 [3356:2472:0706/115855.494:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 11:58:55.82 [3356:2472:0706/115855.825:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+
+7月 06, 2017 13:07:32.62 NEW SESSION
+7月 06, 2017 13:07:32.62 [3504:392:0706/130732.624:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 13:17:33.26 [3504:392:0706/131733.262:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 13:58:52.67 [3504:1136:0706/135852.671:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 14:01:19.48 [3504:1136:0706/140119.484:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 14:04:15.72 [3504:1136:0706/140415.722:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 14:07:49.55 [3504:1136:0706/140749.557:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 14:10:57.76 [3504:392:0706/141057.769:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 14:12:21.93 [3504:392:0706/141221.935:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 14:44:56.12 [5248:2276:0706/144456.124:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 15:13:26.24 [5248:3460:0706/151326.242:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 15:14:07.44 [5248:3460:0706/151407.447:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 15:15:53.45 [5248:3460:0706/151553.459:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 15:18:05.91 [5248:3460:0706/151805.918:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 06, 2017 15:37:39.97 [5140:4876:0706/153739.971:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 17:31:34.98 [2764:3724:0706/173134.982:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 17:31:35.02 [2764:3724:0706/173135.026:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 17:31:35.02 [2764:3724:0706/173135.029:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 17:31:57.05 [2764:3724:0706/173157.053:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 17:31:57.05 [2764:3724:0706/173157.053:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 17:31:57.48 [2764:3724:0706/173157.481:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 06, 2017 17:31:57.60 [2764:3724:0706/173157.604:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 17:31:57.61 [2764:3724:0706/173157.610:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 06, 2017 17:31:57.62 [2764:3724:0706/173157.619:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+
+7月 07, 2017 12:53:12.31 NEW SESSION
+7月 07, 2017 12:53:12.31 [4192:5632:0707/125312.313:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 12:55:39.21 [4192:5632:0707/125539.218:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 12:58:36.24 [4192:5632:0707/125836.240:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 13:01:25.37 [4192:5632:0707/130125.371:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 13:07:30.58 [4192:5632:0707/130730.583:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 13:15:47.24 [4192:5632:0707/131547.245:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:34:23.05 [4192:5632:0707/153423.058:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:36:54.74 [4192:5632:0707/153654.742:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:39:54.25 [4192:5632:0707/153954.256:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:41:57.47 [4192:5632:0707/154157.470:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:46:53.41 [4192:5632:0707/154653.415:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 15:56:47.56 [4192:5632:0707/155647.561:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 16:07:09.39 [4192:5632:0707/160709.394:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 16:26:19.43 [4192:6152:0707/162619.439:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 07, 2017 17:15:37.39 [11748:8804:0707/171537.398:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+7月 07, 2017 18:41:39.00 NEW SESSION
+7月 07, 2017 18:41:39.00 [124:4220:0707/184139.007:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 07, 2017 18:41:39.10 [124:4220:0707/184139.009:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -100
+7月 07, 2017 18:43:34.10 [124:5048:0707/184334.100:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 18:44:10.45 [124:5048:0707/184410.455:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 18:47:13.16 [124:5048:0707/184713.165:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 20:21:52.59 [3372:5844:0707/202152.590:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7月 07, 2017 20:25:17.71 [3372:5844:0707/202517.713:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7月 07, 2017 21:49:26.91 [5320:1516:0707/214926.910:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 21:50:05.30 [5320:1516:0707/215005.300:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 21:51:06.90 [5320:1516:0707/215106.900:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 21:53:18.21 [5320:1516:0707/215318.218:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 21:56:59.44 [5320:1516:0707/215659.441:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:05:07.24 [5320:1516:0707/220507.241:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:15:19.24 [5320:1516:0707/221519.245:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:25:31.25 [5320:1516:0707/222531.250:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:35:43.25 [5320:1516:0707/223543.255:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:45:55.25 [5320:1516:0707/224555.259:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 22:56:07.26 [5320:1516:0707/225607.263:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 23:06:19.26 [5320:1516:0707/230619.267:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 23:16:31.27 [5320:1516:0707/231631.271:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 23:26:43.27 [5320:1516:0707/232643.276:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 07, 2017 23:36:55.28 [5320:1516:0707/233655.280:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 08, 2017 08:33:10.78 NEW SESSION
+7月 08, 2017 08:33:10.78 [492:3940:0708/083310.786:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:33:44.40 [492:3940:0708/083344.405:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:34:49.78 [492:3940:0708/083449.783:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:36:58.85 [492:3940:0708/083658.855:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:40:04.48 [492:3940:0708/084004.487:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:46:15.42 [492:3940:0708/084615.424:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 08:56:27.50 [492:3940:0708/085627.501:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:06:39.57 [492:3940:0708/090639.573:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:16:51.58 [492:3940:0708/091651.582:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:27:03.65 [492:3940:0708/092703.658:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:37:15.73 [492:3940:0708/093715.735:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:47:27.80 [492:3940:0708/094727.809:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 09:57:39.89 [492:3940:0708/095739.892:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 10:07:51.96 [492:3940:0708/100751.968:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 10:18:04.05 [492:3940:0708/101804.055:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 10:28:16.14 [492:3940:0708/102816.140:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 10:38:28.21 [492:3940:0708/103828.215:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 10:48:40.28 [492:3940:0708/104840.281:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:00:11.06 [4596:5424:0708/120011.067:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:00:51.97 [4596:5424:0708/120051.974:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:01:55.23 [4596:5424:0708/120155.238:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:03:40.23 [4596:5424:0708/120340.235:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:07:07.26 [4596:5424:0708/120707.265:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 12:12:56.42 [4596:5424:0708/121256.423:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:31:13.65 [5324:4944:0708/143113.655:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:31:48.73 [5324:4944:0708/143148.737:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:32:47.15 [5324:4944:0708/143247.158:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:34:46.32 [5324:4944:0708/143446.322:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:38:58.19 [5324:4944:0708/143858.194:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:44:45.81 [5324:4944:0708/144445.818:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 14:54:57.82 [5324:4944:0708/145457.828:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:05:09.83 [5324:4944:0708/150509.838:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:15:21.85 [5324:4944:0708/151521.851:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:25:33.86 [5324:4944:0708/152533.860:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:35:45.86 [5324:4944:0708/153545.869:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:45:57.87 [5324:4944:0708/154557.878:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 08, 2017 15:58:08.06 [5324:4944:0708/155808.062:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.

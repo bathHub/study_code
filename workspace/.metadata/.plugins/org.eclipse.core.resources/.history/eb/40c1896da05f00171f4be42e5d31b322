@@ -1,0 +1,5 @@
+package com.zhiyou.entity;
+
+public class User {
+
+}

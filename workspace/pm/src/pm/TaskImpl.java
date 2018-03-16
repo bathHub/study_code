@@ -1,0 +1,21 @@
+package pm;
+
+public class TaskImpl implements Task{
+private int n;
+
+	
+	public void setN(int n) {
+	this.n = n;
+}
+public int getN() {
+		return n;
+	}
+
+
+	@Override
+	public void doTask() {
+		// TODO Auto-generated method stub
+		System.out.println("任务:"+n+"正在被线程："+Thread.currentThread().getName()+"执行");
+	}
+
+}

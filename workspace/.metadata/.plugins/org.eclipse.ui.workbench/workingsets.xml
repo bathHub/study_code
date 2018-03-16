@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499390290894_1" label="springMVC" name="springMVC">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/upload" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springMVC_collection" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ssm1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringMVC_05_Upload" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springMVC_form" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springMVC" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springMVC_04_Json" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springMVC_image_json" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499390405509_4" label="mybatis" name="mybatis">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis_twocache" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis_03_DynamicSql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis04" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis_ehcache" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis_onecache" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring_mybatis_c3p0" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mybatis_spring_mapper" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499849509649_4" label="simJava" name="simJava">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pm" type="4"/>
+<item elementID="=hdfsTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498910058964_0" label="Window Working Set" name="Aggregate for window 1498910058964"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499476281575_4" label="Multiple Working Sets" name="Aggregate:mybatis:springMVC:">
+<workingSet IMemento.internal.id="mybatis"/>
+<workingSet IMemento.internal.id="springMVC"/>
+</workingSet>
+<mruList name="simJava"/>
+<mruList name="springMVC"/>
+</workingSetManager>

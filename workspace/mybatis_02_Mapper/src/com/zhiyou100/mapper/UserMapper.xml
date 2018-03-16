@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace作为访问crud语句的标志 -->
+<mapper namespace="com.zhiyou100.mapper.UserMapper">
+	<select id="selectById" resultType="com.zhiyou100.entity.User" parameterType="java.lang.Integer">
+		select * from t_user where id= #{id}
+	</select>
+	
+	<select id="selectAll" resultType="com.zhiyou100.entity.User">
+		select * from t_user
+	</select>
+	
+	<insert id="insert1" parameterType="com.zhiyou100.entity.User">
+		insert into t_user(name,sal,birthday) values(#{name},#{sal},#{birthday}) 
+	</insert>
+	
+	<update id="update1" parameterType="java.util.Map">
+		update t_user
+		set
+			name=#{name},
+			sal=#{sal}
+		where 
+			id=#{id}	
+	</update>
+	
+	<delete id="delete1" parameterType="java.lang.Integer">
+		delete from t_user where id= #{abc}
+	
+	</delete>
+</mapper>

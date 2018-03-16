@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<!-- package:实体类所在的包 -->
+<hibernate-mapping package="com.zhiyou.entity">
+	<!-- 类和表之间的映射关系 
+		name:类名
+		table:表名，可以不写，不写时默认表名为类名首字母小写
+	-->
+	<class name="Role" table="oa_role">
+		<!-- 主键列 
+			name:属性名
+			column:表中的列名,可以省略，默认和主键属性名一致
+		-->
+		<id name="id" column="id">
+			<!-- 主键的生成策略 -->
+			<!-- <generator class="native" /> -->
+			<generator class = "native"/>
+			
+		</id>
+		<!-- 非主键列 -->
+		<property name="name" column="name"/>
+		<property name="description" column="description"/>
+	</class>
+	
+
+</hibernate-mapping>
